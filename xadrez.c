@@ -4,6 +4,9 @@ int main() {
 
     // Nível Novato - Movimentação das Peças
 
+    //As variáveis individuais para cada peça foram substituídas por duas variáveis genéricas,
+    //para facilitar o manuseio das variáveis, e o entendimento.
+    
     int i, j;
 
     // Movimento da TORRE - 5 casas para a direita
@@ -31,7 +34,7 @@ int main() {
 
     //Nível Aventureiro - Movimentação do Cavalo
 
-    
+
     // Movimento do CAVALO - 2 casas para baixo e 1 para a esquerda
     printf("\nMovimento do Cavalo:\n");
     for (i = 0; i < 2; i++) { // 2 passos para baixo
